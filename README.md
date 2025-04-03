@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to develop a music genre classification model based on audio analysis. A dataset containing recordings of different musical genres was used, from which relevant features were extracted to train a classifier.
+This project aims to develop a music genre classification model based on audio analysis. A dataset containing recordings of different musical genres was used to extract relevant features to train a classifier.
 
 ## Methodology
 
@@ -12,7 +12,7 @@ The dataset used is [GTZAN](https://www.kaggle.com/datasets/andradaolteanu/gtzan
 
 ### 2. Preprocessing
 
-The GTZAN dataset is already processed, but for the classifier to work with user-input audio, additional preprocessing was required to handle noise, background sounds, and echoes.
+The GTZAN dataset has already been processed, but for the classifier to work with user-input audio, additional preprocessing is required to handle noise, background sounds, and echoes.
 
 **Steps taken:**
 - **Signal normalization:** Adjusting the signal amplitude to a standardized range to prevent extreme volume variations from affecting feature extraction.
