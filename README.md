@@ -27,6 +27,7 @@ The GTZAN dataset is already processed, but for the classifier to work with user
 
 RandomForest was used to evaluate the most relevant features for classification. The 20 most important features were selected, and a correlation matrix was applied. Features with a correlation above 75% were removed, resulting in a final set of 12 features.
 
+Correlation Matrix
 ![Correlation Matrix](https://github.com/user-attachments/assets/51f1a4f1-a8e4-40e3-9b69-913573b7ab7a)
 
 ### 4. Model Training
@@ -37,7 +38,10 @@ A **RandomForest classifier** was trained with 80% of the data, while the remain
 
 After training and testing, the model achieved **73% accuracy**, demonstrating good performance even with noisy audio inputs.
 
+Confusion Matrix
 ![Confusion Matrix](https://github.com/user-attachments/assets/0fc928e8-a324-486e-952b-698047e874d0)
+
+Classification Report
 ![Classification Report](https://github.com/user-attachments/assets/185ac2a9-66af-4caf-ab71-931c3b36950b)
 
 ## How to Run
