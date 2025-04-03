@@ -20,17 +20,17 @@ The GTZAN dataset has already been processed, but for the classifier to work wit
   - **Low-pass filter:** Reduces high-frequency noises such as hissing and whistling.
   - **Spectral Gating:** Removes constant background noise.
 
-![Audio Before Preprocessing](https://github.com/user-attachments/assets/4ba41ea8-a48f-4ec7-ab20-e9c8c3c924d1)
+![Audio Before Preprocessing](https://github.com/user-attachments/assets/4ba41ea8-a48f-4ec7-ab20-e9c8c3c924d1)  
 Audio Before Preprocessing
 
-![Audio After Preprocessing](https://github.com/user-attachments/assets/93ed8b97-f65f-4009-98b2-394afba8a775)
+![Audio After Preprocessing](https://github.com/user-attachments/assets/93ed8b97-f65f-4009-98b2-394afba8a775)  
 Audio After Preprocessing
 
 ### 3. Feature Extraction
 
 RandomForest was used to evaluate the most relevant features for classification. The 20 most important features were selected, and a correlation matrix was applied. Features with a correlation above 75% were removed, resulting in a final set of 12 features.
 
-![Correlation Matrix](https://github.com/user-attachments/assets/51f1a4f1-a8e4-40e3-9b69-913573b7ab7a)
+![Correlation Matrix](https://github.com/user-attachments/assets/51f1a4f1-a8e4-40e3-9b69-913573b7ab7a)  
 Correlation Matrix
 
 ### 4. Model Training
@@ -41,10 +41,10 @@ A **RandomForest classifier** was trained with 80% of the data, while the remain
 
 After training and testing, the model achieved **73% accuracy**, demonstrating good performance even with noisy audio inputs.
 
-![Confusion Matrix](https://github.com/user-attachments/assets/0fc928e8-a324-486e-952b-698047e874d0)
+![Confusion Matrix](https://github.com/user-attachments/assets/0fc928e8-a324-486e-952b-698047e874d0)  
 Confusion Matrix
 
-![Classification Report](https://github.com/user-attachments/assets/185ac2a9-66af-4caf-ab71-931c3b36950b)
+![Classification Report](https://github.com/user-attachments/assets/185ac2a9-66af-4caf-ab71-931c3b36950b)  
 Classification Report
 
 ## How to Run
